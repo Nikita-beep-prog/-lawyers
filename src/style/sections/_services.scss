@@ -2,80 +2,29 @@
   padding: 80px 0;
   background: #f7f7f7;
 
-  &__title {
-    color: var(--colors-black-text, #222);
-    font-size: 28px;
-    font-weight: 800;
-    line-height: 150%;
-    text-transform: uppercase;
-    text-align: center;
-  }
-
   &__line {
     margin: 11px auto 0;
   }
 
   &__text {
-    color: var(--colors-black-text, #222);
     text-align: center;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 120%;
-    padding: 24px 48px;
+    margin: 24px auto 0;
+    max-width: 920px;
   }
 
   &__wrapper {
-    max-width: 1320px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 38px 24px;
+    margin-top: 48px;
   }
-
-  &__card {
-    background: var(--white-color-100, #fff);
-    padding: 50px 32px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 424px;
-    height: 250px;
-  }
-
-  &__icon {
-    width: 35px;
-    height: 35px;
-  }
-
-  &__subtitle {
-    color: var(--colors-black-text, #222);
-    text-align: center;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 150%;
-  }
-
-  &__text {
-    color: var(--colors-black-text, #222);
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 120%;
-  }
-
-  // &__button {
-  // }
 
   &__btn {
-    border: 2px solid var(--blue-color-100, #4f8ff0);
-    background: var(--blue-color-100, #4f8ff0);
-    color: var(--white-color-100, #fff);
-    font-size: 14px;
-    font-weight: 900;
-    line-height: 120%;
-    text-transform: uppercase;
-    gap: 10px;
+    display: block;
+    margin: 0 auto;
     width: 138px;
     height: 49px;
+    margin-top: 48px;
   }
 }

@@ -10,3 +10,19 @@
   border-bottom: 2px solid #00a4e5;
   margin-top: 10px;
 }
+
+.btn {
+  color: $color-white-text;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: $blue-color;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+}

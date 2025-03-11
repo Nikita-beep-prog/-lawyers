@@ -9,9 +9,8 @@ html {
 }
 
 body {
-  line-height: 1.2;
   font-family: "Nunito Sans";
-  font-weight: 400;
+  color: $color-black-text;
 }
 
 ul,
@@ -49,6 +48,7 @@ h4,
 h5,
 h6,
 p {
+  line-height: 1.2;
   font-size: inherit;
   font-weight: 400;
 }
