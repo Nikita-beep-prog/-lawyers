@@ -1,0 +1,94 @@
+.header {
+  color: #fff;
+
+  &__top {
+    padding: 16px 0;
+    background: #010101;
+  }
+
+  &__top-wrapper {
+    @include df-jcsb;
+  }
+  &__contacts {
+    display: flex;
+    gap: 0 28px;
+  }
+  &__tel {
+    color: #fff;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 120%;
+  }
+
+  &__mail {
+    color: #fff;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 120%;
+  }
+
+  &__text {
+    color: var(--blue-color-100, #4f8ff0);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+  }
+
+  &__bottom {
+    padding: 22px 0 28px;
+    background: rgba(1, 1, 1, 0.76);
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    left: 0;
+    right: 0;
+  }
+
+  &__menu {
+    @include df-jcsb;
+    align-items: center;
+  }
+
+  &__title {
+    color: var(--blue-color-100, #4f8ff0);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 150%;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    color: var(--white-color-100, #fff);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 150%;
+    text-transform: lowercase;
+  }
+
+  &__nav {
+    max-width: 680px;
+    width: 100%;
+  }
+
+  &__menu-list {
+    @include df-jcsb;
+    color: var(--white-color-100, #fff);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+  &__menu-item:hover {
+    color: var(--blue-color-100, #4f8ff0);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+  }
+}
