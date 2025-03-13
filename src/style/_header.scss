@@ -52,15 +52,12 @@
   }
 
   &__title {
-    color: var(--blue-color-100, #4f8ff0);
-    font-size: 28px;
-    font-weight: 900;
-    line-height: 150%;
-    text-transform: uppercase;
+
+
   }
 
   &__subtitle {
-    color: var(--white-color-100, #fff);
+    color: $color-white-text;
     font-size: 20px;
     font-weight: 900;
     line-height: 150%;

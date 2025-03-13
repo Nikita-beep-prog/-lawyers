@@ -7,11 +7,12 @@
 
 .line {
   width: 50px;
-  border-bottom: 2px solid #00a4e5;
+  border-bottom: 3px solid #00a4e5;
   margin-top: 10px;
 }
 
 .btn {
+  // font-family: "Nunito Sans";
   color: $color-white-text;
   font-size: 14px;
   font-weight: 900;
@@ -25,4 +26,9 @@
   line-height: 150%;
   text-transform: uppercase;
   text-align: center;
+
+  &--blue {
+    color: $blue-color;
+    font-weight: 900;
+  }
 }
