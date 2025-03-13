@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito Sans";
+  font-family: "Nunito Sans", sans-serif;
 }
 
 html {
@@ -360,4 +360,43 @@ p {
 .about__image {
   width: 535px;
   height: 359px;
+}
+
+.lawyers__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lawyers-card {
+  max-width: 312px;
+  padding-bottom: 24px;
+  position: relative;
+}
+.lawyers-card__name {
+  margin: 24px 0 10px;
+  font-weight: 700;
+}
+.lawyers-card__description {
+  font-weight: 300;
+  font-size: 14px;
+}
+.lawyers-card__img {
+  width: 312px;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.lawyers-hidden {
+  position: absolute;
+  top: 0;
+  padding: 83px 20px;
+  background-color: white;
+  opacity: 0;
+  transition: 1s ease-in-out;
+}
+.lawyers-hidden:hover {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */

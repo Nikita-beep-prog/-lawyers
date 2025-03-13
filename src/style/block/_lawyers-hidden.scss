@@ -1,0 +1,12 @@
+.lawyers-hidden {
+  position: absolute;
+  top: 0;
+  padding: 83px 20px;
+  background-color: white;
+  opacity: 0;
+  transition: 1s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
+}
