@@ -1,0 +1,9 @@
+.reviews {
+  &__title {
+    color: $color-black-text;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 150%;
+    text-transform: uppercase;
+  }
+}

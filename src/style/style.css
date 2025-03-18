@@ -362,23 +362,27 @@ p {
   height: 359px;
 }
 
+.lawyers {
+  padding: 80px 0;
+}
 .lawyers__wrapper {
   display: flex;
   justify-content: space-between;
+  margin-top: 48px;
+}
+.lawyers__line {
+  margin: 10px auto 0;
+}
+.lawyers__text {
+  text-align: center;
+  max-width: 920px;
+  margin: 24px auto 0;
 }
 
 .lawyers-card {
   max-width: 312px;
   padding-bottom: 24px;
   position: relative;
-}
-.lawyers-card__name {
-  margin: 24px 0 10px;
-  font-weight: 700;
-}
-.lawyers-card__description {
-  font-weight: 300;
-  font-size: 14px;
 }
 .lawyers-card__img {
   width: 312px;
@@ -387,6 +391,45 @@ p {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+.lawyers-card__name {
+  margin: 24px 0 10px;
+  font-weight: 700;
+  text-align: center;
+  color: #222;
+  font-size: 16px;
+  font-weight: 700;
+}
+.lawyers-card__description {
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  color: #222;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+.lawyers-hidden {
+  padding: 83px 0;
+  text-align: center;
+}
+.lawyers-hidden__name {
+  color: #222;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.lawyers-hidden__profession {
+  color: #222;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.lawyers-hidden__text {
+  color: #222;
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 40px;
 }
 
 .lawyers-hidden {

@@ -3,20 +3,54 @@
   padding-bottom: 24px;
   position: relative;
 
+  &__img {
+    width: 312px;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+  }
+
   &__name {
     margin: 24px 0 10px;
+    font-weight: 700;
+    text-align: center;
+    color: $color-black-text;
+    font-size: 16px;
     font-weight: 700;
   }
 
   &__description {
     font-weight: 300;
     font-size: 14px;
+    text-align: center;
+    color: $color-black-text;
+    font-size: 14px;
+    text-transform: lowercase;
+  }
+}
+.lawyers-hidden {
+  //Запутался
+  padding: 83px 0;
+  text-align: center;
+
+  &__name {
+    color: $color-black-text;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
   }
 
-  &__img {
-    width: 312px;
-    height: 320px;
-    object-fit: cover;
-    object-position: center;
+  &__profession {
+    color: $color-black-text;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    color: $color-black-text;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 40px;
   }
 }
