@@ -1,0 +1,49 @@
+.materials-card {
+  max-width: 425px;
+  margin-top: 48px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__img-block {
+    position: relative;
+    // height: 100%;
+    &:hover {
+      &::before {
+        content: "";
+        position: absolute;
+        background-color: rgba(79, 143, 240, 0.4);
+        inset: 0;
+      }
+    }
+  }
+
+  &__img-block:hover + &__title {
+    color: #4f8ff0;
+  }
+
+  &__image {
+    width: 424px;
+    height: 270px;
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    margin-top: 24px;
+  }
+
+  &__date {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 16px 0;
+  }
+
+  &__text {
+    font-size: 14px;
+  }
+}

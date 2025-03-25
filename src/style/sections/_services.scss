@@ -15,16 +15,13 @@
 
   &__wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(336px, 424px));
     gap: 38px 24px;
     margin-top: 48px;
   }
 
   &__btn {
     display: block;
-    margin: 0 auto;
-    width: 138px;
-    height: 49px;
-    margin-top: 48px;
+    margin: 48px auto 0;
   }
 }

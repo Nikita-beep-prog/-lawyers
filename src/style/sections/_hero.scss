@@ -1,6 +1,5 @@
 .hero {
   background-image: url("../img/background.webp");
-  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -41,14 +40,25 @@
   }
 
   &__btn {
-    border: 2px solid var(--blue-color-100, #4f8ff0);
-    background: var(--blue-color-100, #4f8ff0);
     position: relative;
-    padding: 16px 24px;
-    color: $color-white-text;
-    font-size: 14px;
-    font-weight: 900;
-    text-transform: uppercase;
     margin-top: 48px;
+  }
+}
+
+@media (max-width: 950px) {
+  .hero {
+    padding: 148px 0 100px;
+
+    &__title {
+      font-size: 24px;
+    }
+
+    &__subtitle {
+      font-size: 50px;
+    }
+
+    &__text {
+      font-size: 18px;
+    }
   }
 }

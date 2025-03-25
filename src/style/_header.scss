@@ -12,21 +12,8 @@
   &__contacts {
     display: flex;
     gap: 0 28px;
-  }
-  &__tel {
-    color: #fff;
-    font-family: "Nunito Sans";
     font-size: 14px;
     font-weight: 600;
-    line-height: 120%;
-  }
-
-  &__mail {
-    color: #fff;
-    font-family: "Nunito Sans";
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 120%;
   }
 
   &__text {
@@ -52,8 +39,6 @@
   }
 
   &__title {
-
-
   }
 
   &__subtitle {
@@ -87,5 +72,25 @@
     text-decoration-thickness: auto;
     text-underline-offset: auto;
     text-underline-position: from-font;
+  }
+
+  @media (max-width: 1061px) {
+    .header {
+      &__nav {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width: 950px) {
+    .header {
+      &__title {
+        font-size: 22px;
+      }
+
+      &__subtitle {
+        font-size: 16px;
+      }
+    }
   }
 }

@@ -29,17 +29,10 @@
     gap: 24px;
   }
 
-  &__btn-history {
-    border: 2px solid var(--blue-color-100, #4f8ff0);
-    width: 210px;
-    height: 49px;
-  }
-
   &__btn-certificate {
     color: $color-black-text;
-    background: var(--white-color-300, #e6e6e6);
-    width: 161px;
-    height: 49px;
+    border: 2px solid #e6e6e6;
+    background: #e6e6e6;
   }
 
   &__image {
